@@ -1,0 +1,48 @@
+/* Universal box sizing */
+* {
+    box-sizing: border-box;
+}
+/* Set the size of the body */
+body {
+  width: 600px;
+}
+
+@media screen and (min-width: 400px) 
+
+/* Style the header */
+.header {
+    background-color:#00cccc;
+    text-align: center;
+    padding: 20px;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #009999;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+/* Create two equal columns that float next to each other */
+.column {
+    float: left;
+    width: 300px;
+    padding: 15px;
+    background-color: #e6ffff;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    background-color: #009999;
+    text-align: center;
+    padding: 10px;
+} 
